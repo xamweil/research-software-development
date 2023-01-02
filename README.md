@@ -1,102 +1,41 @@
-[//]: # (You can remove theses instructions when you have setup the first version of the module)
+# Module 0: Good practices in research software development 
+Welcome to module 0 of the [Neural Data Science Course](https://neural-data-science-course.github.io/). 
+This module teaches a set of software development skills that are useful in following the 
+rest of the [Neural Data Science Course](https://neural-data-science-course.github.io/). 
+You will learn how to use the version control system git, and how to collaborate using GitHub.
+These skills are essential for taking the course.
 
-## Module template instructions
-This is the template for creating a new module in the 'neural data science course'.
+Optionally, you can learn about: virtual environments, Integrated Software Development Environments (IDEs), Python code style conventions, 
+automatically testing software, software architecture and design, 
+writing reusable software, software management. 
+These skills are vital if you want to develop reusable and sustainable neural data science software,
+but they are not required for taking the [Neural Data Science Course](https://neural-data-science-course.github.io/).
 
-### What is a module?
-A module is a set of lessons revolving around a central topic. 
-The core of each lesson is a jupyter notebook with both working code and explanations.
-See https://github.com/neural-data-science-course/population-methods for an example.
-
-### How to use this template to create a new module?
-  1. Create a new Github repository by clicking the green 'Use this template' button on the top right.
-  2. Create the repository in the neural-data-science-course organisation and give it a title [number]-[module name].
-  3. Submit a pull request that adds a link to the new module to the course website https://github.com/neural-data-science-course/neural-data-science-course.github.io.
-
-### What changes should I make to this README?
-  - [ ] Change the title
-  - [ ] Add a module introduction, introducing the main overarching topic and what a student will learn in the module.
-  - [ ] Adapt the module overview, include how long it takes to teach each lesson in the module.
-  - [ ] Add prerequisites
-  - [ ] Adapt setup instructions if necessary
-  - [ ] Add details about the contributors of this module
-  - [ ] If you want, add how this module should be cited
-  - [ ] Remove (or comment out) these instructions
- 
-### How to create my first lesson?
-   - [ ] Use the `01-lesson1` folder as an example
-   - [ ] Adapt the `lesson-title.ipynb`, this should be the main explanatory resource used for teaching.
-      1. Try to stick to the template as much as possible, so all lessons in the course have a similar look and feel.
-      2. Try to fill the 'In this lesson you will learn' on top and 'Keypoints' in the bottom of the notebook as well as possible. 
-         This will provide a natural intro and ending to the notebook and gives a lot of structure to the course.
-   - [ ] Adapt the `exercises.ipynb`, you can add separate exercises without answers here, these can be used for assignments.
-   - [ ] If necessary add code you use in the notebook in the `code` folder
-   - [ ] To add more lessons, just add more folders with a similar structure
-
-### What other changes should I make?
-   - [ ] Update the `instructor-notes.md` file with instructions for the instructor teaching this module.
-   - [ ] Update the `requirements.txt` file with python packages necessary for this module.
-----
-
-# Module [number]: [module name] 
-Welcome to module [number] of the [Neural Data Science Course]().
-[Module introduction]
+In contrast to the other modules, this module just links to lesson material that is developed by others, 
+but we recommend to study before the course.
 
 ## Prerequisites
 To make the best out of the material of this module, you will need:  
-*
+* Basic Python programming and applying it to your work on a regular basis
+* Basic understanding of the command line interface (shell). 
+  If you want to learn about it, we recommend studying [this material](https://swcarpentry.github.io/shell-novice/)
 
 ## Setup
-
-### Install Pyhton and anaconda on your machine 
-If you don't have them already installed, install Pyhton and Anaconda on your machine.
-Follow these instructions on [how to install anaconda](https://docs.anaconda.com/anaconda/install/)
-
-### Create a conda environment**
-Create a conda virtual environment with the name you prefer, then activate it to work within it.
-Open a terminal, or open 'Anaconda Prompt' from Anaconda Navigator, in there run:
-
-```
-conda create --name env_name
-conda activate env_name
-```
-
-
-### Download the module folder
-Clic on Code/Download Zip at the top of the page.  
-Move the zipped folder in the directory of your choice and decompress it.  
-Open the terminal and navigate to the module directory.
-
-### Install the module requirements
-
-Run in the terminal
-
-```
-pip install -r requirements.txt
-```
-
-### Open Jupyter lab
-You can now open the lesson's notebooks in jupyter lab
-```
-jupyter lab
-```
-
-### All set!
-You're all set to go through the lessons.
+For the introduction to version control with git, follow [these instructions](https://swcarpentry.github.io/git-novice/setup.html).
+For the rest of the module, follow [these instructions](https://carpentries-incubator.github.io/python-intermediate-development/setup.html)
 
 ## Module overview
-* 01. [lesson name] - [XX] minutes
-* 02. [lesson name] - [XX] minutes
+* 01. [Introduction to version control with git - 2:30 hours](01-git-intro/README.md)
+* 02. [Collaborative software development using git and GitHub - 1:00 hours](02-git-collaboration/README.md)
+* 03. [Intermediate research software development skills - 14:00 hours](03-intermediate-python/README.md)
 
 
 ## Contributors
 This module was created by:  
-* contributor 1  
-* contributor 2  
+* Sven van der Burg
 
 ## Cite
-If you use this module, please cite it as:
-
+If you use this module, please cite the materials it refers to.
 
 ## License
 
