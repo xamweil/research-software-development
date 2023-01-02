@@ -16,7 +16,8 @@ but we recommend to study before the course.
 
 ## Prerequisites
 To make the best out of the material of this module, you will need:  
-* Basic Python programming and applying it to your work on a regular basis
+* Basic Python programming and applying it to your work on a regular basis.
+  If you want to learn more about Python programming we recommend studying [this material](https://datacarpentry.org/python-ecology-lesson/)
 * Basic understanding of the command line interface (shell). 
   If you want to learn about it, we recommend studying [this material](https://swcarpentry.github.io/shell-novice/)
 
